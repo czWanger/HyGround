@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Runs and caches
+outputs/
+logs/
+*.log
+_judge_v4_cache.jsonl
+_scorer_v4_cache.jsonl
+_eval_legacy_cache.jsonl
+
+# Data: full tables and queries are downloaded, only samples are committed
+data/tables/*
+!data/tables/README.md
+!data/tables/.gitkeep
+data/test/
+
+# Per-case tables extracted from test.tar.gz (queries are committed)
+data/test/end2end_light/*/table/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

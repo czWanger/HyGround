@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Bridging Semantic Gaps and Acquiring Evidence for Reliable Hybrid Query Reasoning"
+type: software
+authors:
+  - name: "Anonymous"
+repository-code: "https://github.com/your-org/SGA-IEA"
+license: Apache-2.0
+abstract: >-
+  Reference implementation of Semantic Gap Alignment (SGA) and Interactive
+  Evidence Acquisition (IEA) for reliable hybrid query reasoning over tables.
+keywords:
+  - hybrid query
+  - table question answering
+  - semantic operators
+  - evidence grounding
+  - large language models

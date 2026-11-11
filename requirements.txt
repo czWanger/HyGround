@@ -1,0 +1,12 @@
+# API-only installation (enough to run GPT-4.1 experiments and the judge)
+openai>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+litellm>=1.40.0
+faiss-cpu>=1.8.0
+Pillow>=10.0.0
+pydantic>=2.0.0
+tokenizers>=0.15.0
+requests>=2.31.0
+tqdm>=4.66.0
+chardet>=5.0.0
